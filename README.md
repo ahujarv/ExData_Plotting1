@@ -114,8 +114,6 @@ The four plots that you will need to construct are shown below.
 
 ## Information about the plots on completed assignment
 
-* The background for all the plots is transparent
-
 * The programs download file only once into the working 
 directory if it is not already present. Thereafter, all 
 the progams read the local copy.
