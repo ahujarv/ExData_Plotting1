@@ -112,3 +112,10 @@ The four plots that you will need to construct are shown below.
 
 ![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
 
+## Information about the plots on completed assignment
+
+* The background for all the plots is transparent
+
+* The programs download file only once into the working 
+directory if it is not already present. Thereafter, all 
+the progams read the local copy.
