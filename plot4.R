@@ -16,12 +16,12 @@ plot4 <- function() {
         
         ## Plot Global_active_power
         plot(dataSet$Time, gap, type="l", xlab="", 
-             ylab="Global Active Power")
+             ylab="Global Active Power", bg="transparent")
         
         ## Plot Sub_metering_1, Sub_metering_2 and Sub_metering_3
         ## First plot Sub_metering_1 data
         plot(dataSet$Time, dataSet$Sub_metering_1, type="l", xlab="", 
-             ylab="Energy sub metering")
+             ylab="Energy sub metering", bg="transparent")
         
         ## Add line for Sub_metering_2 
         lines(dataSet$Time, dataSet$Sub_metering_2, col="red")
@@ -39,11 +39,11 @@ plot4 <- function() {
         
         ## Plot Voltage data
         plot(dataSet$Time, voltage, type="l", xlab="datetime", 
-             ylab="Voltage")
+             ylab="Voltage", bg="transparent")
         
         ## Plot Global_reactive_power  
         plot(dataSet$Time, grp, type="l", xlab="datetime", 
-             ylab="Global_reactive_power")
+             ylab="Global_reactive_power", bg="transparent")
         
         ## Turn off the png device
         dev.off()
