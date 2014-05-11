@@ -12,7 +12,7 @@ plot4 <- function() {
         png("plot4.png", width=480, height=480)
         
         ## Set rows and columns for the plots
-        par(mfcol = c(2, 2), bg="transparent")
+        par(mfcol = c(2, 2))
         
         ## Plot Global_active_power
         plot(dataSet$Time, gap, type="l", xlab="", 
